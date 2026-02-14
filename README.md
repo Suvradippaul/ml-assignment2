@@ -26,6 +26,25 @@ We implemented 6 classification models: Logistic Regression, Decision Tree, K-Ne
 | **Random Forest (Ensemble)** | 0.9854 | 1.0000 | 1.0000 | 0.9709 | 0.9852 | 0.9712 |
 | **XGBoost (Ensemble)** | 0.9854 | 0.9894 | 1.0000 | 0.9709 | 0.9852 | 0.9712 |
 
+## d. How to Run
+
+1.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Run the Streamlit App**:
+    ```bash
+    streamlit run app.py
+    ```
+    The application will be accessible at `http://localhost:8501`.
+
+3.  **Train Models (Optional)**:
+    If you need to retrain the models:
+    ```bash
+    python model/ml_models.py
+    ```
+
 ## Observations on Model Performance
 
 | ML Model Name | Observation about model performance |
