@@ -6,3 +6,7 @@ __pycache__/
 .DS_Store
 venv/
 __pycache__/
+app.py
+model/classification_results.csv
+save_test_data.py
+test_data.csv
